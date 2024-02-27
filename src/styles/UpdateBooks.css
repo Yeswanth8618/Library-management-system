@@ -1,0 +1,83 @@
+.updatebooks {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 95000)), url(https://cdn.pixabay.com/photo/2015/07/08/20/21/halloween-836849_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.content{
+padding-top: 100px;
+}
+.updatebooks form{
+    width: 450px;
+border: 5px solid white;
+margin-left: 450px;
+height: 72vh;
+padding-top: 20px;
+margin-top: -25px;
+transform: skew(3deg);
+background-color: rgba(174, 194, 194, 0.24);
+/* box-shadow: 0 0 50px 15px #48abe0; */
+box-shadow: 0 0 10px 5px #48abe0,
+0 0 5px 7px #ebeccaa4,
+0 0 5px 10px #892be28e,
+0 0 5px 15px #ff14916e;
+animation: rightside 1s ease forwards;
+opacity: 0;
+animation-delay: 1s;
+}
+.updatebooks form input{
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+::placeholder{
+    color: black;
+}
+.updatebooks input[type="text"], input[type="number"], textarea {
+    border: none;
+    outline: none;
+}
+
+.content h1{
+    margin-left: 97px;
+    border-bottom: 5px solid red;
+    width: 200px;
+    animation: leftside 1s ease forwards;
+    opacity: 0;
+    animation-delay: 1s;
+}
+.updatebooks button{
+    background-color: red;
+   padding: 12px 35px;
+}
+.content label{
+    color: black;
+    font-weight: bolder;
+    background-color: #FF5733 ;
+}
+#long{
+    transform: translateY(-70px);
+}
+@keyframes leftside{
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rightside{
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

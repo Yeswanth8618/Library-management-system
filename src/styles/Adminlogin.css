@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.adminlogin form{
+    background-color: rgba(15, 15, 15, 0.568);
+    transform: translateY(80px);
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 470px;
+    align-items: center;
+    padding-top: 25px;
+}
+.email{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.email label{
+    color: yellow;
+    margin-right: 25px;
+}
+.password label{
+    color: yellow;
+}
+.password{
+    padding-right: 28px;
+    padding-bottom: 20px;
+}
+button{
+    color: white;
+    background-color: blue;
+    padding: 7px 30px;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    transform: scale(1.2);
+    /* box-shadow: 10px 10px lightblue; */
+    /* box-shadow: 3px 3px 3px #e78267; */
+    box-shadow: -10px 0px 35px 20px white;
+}
+.adminlogin{
+    background:linear-gradient( rgba(0,0,0,0) 20%, rgba(0,0,0,1.5)), url(https://cdn.pixabay.com/photo/2013/03/02/02/41/alley-89197_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.adminlogin input{
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    outline: none;
+}
+
+.adminlogin h1{
+    text-shadow: 3px 3px 20px #30dbdb,
+    -2px 1px 30px #58c2ec;
+}
+.email label{
+    color: white;
+    font-weight: bold;
+}
+.password label{
+    color: white;
+    font-weight: bold;
+}

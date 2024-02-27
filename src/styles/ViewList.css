@@ -1,0 +1,32 @@
+.viewitems{
+    background:linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,2.5)),  url(https://images3.alphacoders.com/589/589870.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 40vh;
+    padding-top: 150px;
+    display: flex;
+    justify-content: start;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+.bookimg img{
+    height: 200px;
+}
+.viewitems button{
+    background-color: aqua;
+    margin-top: 25px;
+}
+.bookdetails h2{
+    text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
+    font-size: xx-large;
+}
+#b1{
+    margin-left: 25px;
+    background-color: rgb(0, 255, 76);
+}
+#b2{
+    margin-left: 25px;
+    background-color: rgb(255, 0, 85);
+}

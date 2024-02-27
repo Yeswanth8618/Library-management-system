@@ -1,0 +1,29 @@
+.usernavbar{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 100px;
+    padding-bottom: 10px;
+    background-color: rgb(62, 63, 65);
+    border-bottom: 2px solid orange;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1;
+}
+.navlinks2{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.navlinks2 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(233, 211, 12, 0.993);
+    text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
+}
+.navlink2 s a:hover{
+    border-bottom: 2px solid white;
+}

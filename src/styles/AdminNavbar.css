@@ -1,0 +1,34 @@
+.adminnavbar{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    padding-bottom: 10px;
+    background-color: black;
+    border-bottom: 2px solid orange;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1;
+}
+.navlinks{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.navlinks a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(233, 211, 12, 0.993);
+    text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
+}
+.navlinks a:hover{
+    border-bottom: 2px solid white;
+}
+.adminnavbar img{
+    padding-top: 3px;
+    height: 65px;
+    width: 70px;
+}
